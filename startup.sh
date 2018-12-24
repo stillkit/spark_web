@@ -1,0 +1,1 @@
+spark-submit --driver-class-path /usr/local/spark-2.4.0-bin-hadoop2.7/jars/*:/usr/local/spark-2.4.0-bin-hadoop2.7/jars/kafka/* --class "org.apache.spark.examples.streaming.KafkaWordCount" /home/kit/prj/spark/kafka/kafkatest/target/scala-2.11/simple-project_2.11-1.0.jar 127.0.0.1:2181 1 sex 1

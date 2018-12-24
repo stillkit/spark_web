@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kit/prj/spark/kafka/kafkatest/src/main/scala/KafkaTest.scala:11:35: object kafka is not a member of package org.apache.spark.streaming[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.kafka._[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kit/prj/spark/kafka/kafkatest/src/main/scala/KafkaTest.scala:30:17: not found: value KafkaUtils[0m
+[0m[[0m[31merror[0m] [0m[0m    val lines = KafkaUtils.createStream(ssc, zkQuorum, group, topicMap).map(_._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
